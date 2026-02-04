@@ -1,0 +1,180 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation Menu */
+nav {
+  background-color: #333;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4CAF50, #81C784);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about h2 {
+  color: #4CAF50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+}
+
+/* Skills Section */
+.skills {
+  background-color: #81C784;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.skills h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Projects Section */
+.projects {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.projects h2 {
+  color: #4CAF50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.projects .project {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects .project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projects h3 {
+  margin-top: 0;
+}
+
+.projects p {
+  font-size: 1em;
+}
+
+.projects a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, 
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.contact input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #388E3C;
+}
+
+/* Footer */
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
